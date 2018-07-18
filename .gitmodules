@@ -1,0 +1,6 @@
+[submodule "fw_common"]
+	path = fw_common
+	url = git@github.com:BossaNova/fw_common.git
+[submodule "fw_psoc_hal"]
+	path = fw_psoc_hal
+	url = git@github.com:BossaNova/fw_psoc_hal.git

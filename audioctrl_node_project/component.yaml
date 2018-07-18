@@ -1,0 +1,11 @@
+
+component:
+  name: audioctrl_node_project
+  repo: fw_audioctrl_node
+  printed_name: "Audio Control Node"
+  description: "Firmware for an Atlas ACN board."
+  build_system: PSC3
+  target: CY8C4247AZI-M485
+  bootloadable: true
+  depends:
+    - fw_common/slave_framework

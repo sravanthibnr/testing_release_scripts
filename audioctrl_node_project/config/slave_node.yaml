@@ -1,0 +1,22 @@
+
+slave_node:
+  name: audioctrl_node_project
+  printed_name: Audio Control Node
+  descritpion: Controls Speaker.
+  objects:
+    - name: speaker_enable
+      printed_name: "Speaker Enable"
+      description: "Speaker Enable"
+      type: UINT8
+      access: READ_WRITE
+      index: 0x2600
+      pdo_mappable: ALL_PDO
+      value: 0
+    - name: speaker_volume
+      printed_name: "Speaker Volume"
+      description: "Speaker Volume"
+      type: UINT8
+      access: READ_WRITE
+      index: 0x2601
+      pdo_mappable: ALL_PDO
+      value: 0
